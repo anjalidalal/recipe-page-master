@@ -1,0 +1,367 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1,
+  maximum-scale=5"
+    />
+
+    <link rel="icon" href="devchallenges.png" />
+
+    <link
+      rel="shortcut icon"
+      type="image/x-icon"
+      href="https://devchallenges.io/"
+    />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap"
+      rel="stylesheet"
+    />
+
+    <title>Devchallenges</title>
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Montserrat"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Playfair Display"
+    />
+    <style>
+      body {
+        background-color:white;
+      }
+      * {
+        margin: 0%;
+        padding: 0%;
+      }
+      .main {
+       width: 350px;
+        margin: auto;
+      }
+      .mcq {
+        font-family: Montserrat;
+      }
+      img {
+        width: 320px;
+        height: 220px;
+        border-radius: 9px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+      }
+
+      .cart {
+        display: flex;
+        gap: 25px;
+        padding: 10px 0px;
+      }
+
+      .upper > h2 {
+        font-size: 26px;
+        padding: 10px 0px;
+      }
+
+      #para {
+        font-family: cursive;
+      }
+
+      .upper {
+        padding: 10px;
+      }
+
+      .vector {
+        display: flex;
+      }
+
+      .yields {
+        margin-top: 0%;
+        margin-bottom: 0%;
+        font-size: 6px;
+        color: darkgrey;
+      }
+
+      #services {
+        margin-top: 0%;
+        font-size: 12px;
+        color: coral;
+      }
+
+      .service {
+        font-size: 15px;
+        margin-top: 0%;
+      }
+
+      h3 {
+        font-size: 20px;
+        margin-top: 0%;
+      }
+
+      .point {
+        font-family: Playfair Display;
+        font-style: italic;
+        font-weight: normal;
+        font-size: 18px;
+        padding: 10px 0px;
+      }
+      li {
+        font-size: 17px;
+        list-style: square;
+        list-style-position: outside;
+      }
+      .content {
+        display: flex;
+        padding: 10px;
+      }
+
+      .box {
+        background-color: coral;
+        height: 15px;
+        padding: 8px 10px 15px 10px;
+        border-radius: 10px;
+        font-size: 20px;
+        color: whitesmoke;
+      }
+      .content > div {
+        padding: 0px 10px;
+        font-family: Montserrat;
+      }
+      .lower > h2 {
+        padding: 10px;
+      }
+      @media (min-width: 768px) {
+        img {
+          width: 830px;
+          height: 450px;
+          border-radius: 8px;
+          padding-right: 100px;
+        }
+        .lower {
+          width: 500px;
+        }
+        .main {
+          background-color: white;
+          width: 850px;
+          margin: auto;
+          padding: 0px 30px 30px 30px;
+        }
+        .upper > h2 {
+          font-size: 45px;
+          padding: 30px 0px;
+        }
+        #para {
+          width: 600px;
+          font-size: 20px;
+        }
+        .mcq {
+          padding: 20px;
+          width: 500px;
+        }
+        .article {
+          float: right;
+          background: #ffffff;
+          box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+          border-radius: 12px;
+           width: 170px;
+          height: 300px;
+          margin-top: 20px;
+          padding-top: 20px;
+          padding-left: 40px;
+          padding-bottom: 20px;
+        }
+        .vector {
+          display: flex;
+          flex-direction: row;
+          gap: 10px;
+          padding-top: 20px;
+        }
+        .cart {
+          display: flex;
+          flex-direction: column;
+        }
+        .yields {
+          margin-top: 0%;
+          margin-bottom: 0%;
+          font-size: 10px;
+          color: darkgrey;
+        }
+
+        #services {
+          margin-top: 0%;
+          font-size: 20px;
+          color: coral;
+        }
+
+        .service {
+          font-size: 22px;
+          margin-top: 0%;
+        }
+      }
+    </style>
+  </head>
+
+  <body>
+    <div class="main">
+      <div class="upper">
+        <h2>CLassic Cheescake Recipe</h2>
+        <p id="para">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt
+          voluptates saepeenim voluptas odit excepturi atque at provident a
+          reprehenderit aliquid doloribus aut sapiente exercitationem, quisquam
+          alias dignissimos deleniti illum!
+        </p>
+        <img src="./photo1.png" alt="" />
+        <div class="article">
+          <div class="vector">
+            <i class="material-icons" style="color: coral">restaurant_menu</i>
+            <div class="one">
+              <p class="yields">YIELDS</p>
+              <p id="services">12 sevices</p>
+            </div>
+          </div>
+          <div class="cart">
+            <div class="vector">
+              <i class="material-icons">query_builder</i>
+              <div class="one">
+                <p class="yields">PREP TIME</p>
+                <p class="service">45minutes</p>
+              </div>
+            </div>
+            <div class="vector">
+              <i class="material-icons">query_builder</i>
+              <div class="one">
+                <p class="yields">PREP TIME</p>
+                <p class="service">1hour</p>
+              </div>
+            </div>
+            <div class="vector">
+              <i class="material-icons">query_builder</i>
+              <div>
+                <p class="yields">PREP TIME</p>
+                <p class="service">7,75hour</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="mcq">
+          <h3>Ingredients</h3>
+          <div class="first">
+            <p class="point">Graham Cracker Crust</p>
+            <ul>
+              <li>
+                1 and 1/2 cups (150g) <b>graham cracker crumbs</b>
+                {about 10 full sheet graham crackers}
+              </li>
+              <br />
+              <li>5 Tablespoons(70g) <b>unsalted butter, melted</b></li>
+              <br />
+              <li>1/4 cup (50g) <b>granulted sugar</b></li>
+              <br /><br />
+            </ul>
+          </div>
+          <div class="second">
+            <p class="point">cheesecake</p>
+            <ul>
+              <li>
+                1 and 1/2 cups (150g) <b>graham cracker crumbs</b>
+                {about 10 full sheet graham crackers}
+              </li>
+              <br />
+              <li>5 Tablespoons(70g) <b>unsalted butter, melted</b></li>
+              <br />
+              <li>1/4 cup (50g) <b>granulted sugar</b></li>
+              <br />
+              <li>
+                1 and 1/2 cups (150g) <b>graham cracker crumbs</b>
+                {about 10 full sheet graham crackers}
+              </li>
+              <br />
+              <li>5 Tablespoons(70g) <b>unsalted butter, melted</b></li>
+              <br />
+              <li>1/4 cup (50g) <b>granulted sugar</b></li>
+              <br />
+              <li>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Expedita harum voluptatem beatae, veniam nihil atdoloremque nisi
+                maiores minus nostrum.
+              </li>
+              <br /><br />
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="lower">
+        <h2>Instructions</h2>
+        <div class="content">
+          <p class="box">1</p>
+          <div>
+            <b>Lorem, ipsum dolor: </b>it amet,consectetur adipisicing
+            elit.Itaque laborum, ducimus repellendus asperiores voluptates sint
+            voluptatum totam perspiciatis.
+          </div>
+        </div>
+        <div class="content">
+          <p class="box">2</p>
+          <div>
+            <b>Lorem, ipsum dolor:</b> sit amet consectetur adipisicing
+            elit.Animi placeat at, quibusdam quidemsaepe accusamus laudantium
+            optio culparatione veritatis? ipsum dolor sit amet, consectetur
+            adipisicing elit.Officia atque dicta amet commodi ipsa maxime, modi
+            ipsam quas soluta? Eius asperiores commodi harum consequatur. Iusto
+            ipsum ducimus fugit. Molestiae, veniam?
+          </div>
+        </div>
+        <div class="content">
+          <p class="box">3</p>
+          <div>
+            <b>Lorem ipsum, dolor:</b> sit amet consectetur adipisicing elit.
+            Iusto accusantium modi itaque maioreslabore praesentium adipisci
+            quasi! Blanditiis ut aut distinctio voluptas, minima, aperiam at eos
+            veniam quidem quibusdam recusandae., ipsum dolor sit amet
+            consecteturadipisicing elit. Incidunt architecto explicabo tempora
+            quis! Maxime cumque facere nisi sapiente vero quasi ex consectetur
+            tempore aspernatur nostrummodi, et dolorum! Facilis quidem quia
+            nesciun eum consectetur. Consectetur nihil est iuream laboriosam.
+          </div>
+        </div>
+        <div class="content">
+          <p class="box">4</p>
+          <div>
+            <b>Lorem ipsum dolor:</b> sit amet consectetur adipisicing elit. Est
+            non fugiat delectus modi ipsum alias rerum minu corrupti consequatur
+            sunt! ipsum dolor sit amet consectetur adipisicing elit. Quia libero
+            deleniti, veritatis eligendi adipisci doloremque optio corporis
+            quasi similique cupiditate voluptatesm empora dolorum doloribus vel
+            nemm veniam sapiente. Accusamus, eligendi?
+          </div>
+        </div>
+        <div class="content">
+          <p class="box">5</p>
+          <div>
+            <b>Lorem ipsum dolor: </b>sit amet consectetur adipisicing elit.
+            Dolorum sequi laudantium eius vel reprehenderit iste, amet optio
+            magnam nihil! Non quia provident a ullam, quod impedit sed ut
+            beatae. Exercitatione quis natus dolorum consequuntur dolor eius
+            eritatis, cumque sint earum? Quia maximeconsequuntur voluptatem nisi
+            dolor. Qui officia libero ratione.
+          </div>
+        </div>
+        <div class="content">
+          <p class="box">6</p>
+          <div>
+            <b>Lorem ipsum dolor:</b> sit amet consectetur adipisicing elit.
+            Optio numquam, odio nesciunt, a quaerat adipisci nulla quidem quia
+            magni inventore aspernatur vel similique, praesentium suscipit
+            excepturi perspiciatis deserunt exercitationem beatae?
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
